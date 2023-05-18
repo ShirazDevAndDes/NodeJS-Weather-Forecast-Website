@@ -1,0 +1,28 @@
+body {
+  background-color: #90adff;
+}
+
+.drop-shadow {
+  filter: drop-shadow(2px 2px 6px #0000004d);
+}
+
+.bg-glass {
+  /* background-color: rgb(170 236 255 / 25%);
+  backdrop-filter: blur(23px); */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 0px;
+  border-radius: 10px;
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  opacity: 0;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+  opacity: 1;
+}
